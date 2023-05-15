@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Partial preview</title>
+
+<script src="index_files/header-attrs-2.21/header-attrs.js"></script>
+<script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="index_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="index_files/navigation-1.1/tabsets.js"></script>
+<link href="index_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="index_files/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="metadata" class="section level3">
+<h3>Metadata</h3>
+<div id="description" class="section level4">
+<h4>Description</h4>
+<p><strong>Dataset name</strong>: Global_Pub</p>
+<p>The dataset has N=11 rows and 2 columns. 11 rows have no missing
+values on any column.</p>
+<details>
+<summary title="Expand this section to see some additional metadata in a structured format that is useful for search engines">
+Metadata for search engines
+</summary>
+<ul>
+<li><strong>Date published</strong>: 2023-05-15</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Publisher</td>
+</tr>
+<tr class="even">
+<td align="left">total_sales</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>#Variables</p>
+</div>
+</div>
+<div id="Publisher" class="section level3 tabset">
+<h3 class="tabset">Publisher</h3>
+<div id="Publisher_distribution" class="section level4">
+<h4>Distribution</h4>
+<p>figure/cb_Global_Pub_Publisher_distribution-1.pdf</p>
+<p>0 missing values.</p>
+</div>
+<div id="Publisher_summary" class="section level4">
+<h4>Summary statistics</h4>
+<table style="width:100%;">
+<colgroup>
+<col width="11%" />
+<col width="11%" />
+<col width="11%" />
+<col width="16%" />
+<col width="10%" />
+<col width="7%" />
+<col width="4%" />
+<col width="4%" />
+<col width="13%" />
+<col width="7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="left">data_type</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="right">n_unique</th>
+<th align="right">empty</th>
+<th align="left">min</th>
+<th align="left">max</th>
+<th align="right">whitespace</th>
+<th align="left">label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Publisher</td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">0</td>
+<td align="left">3</td>
+<td align="left">28</td>
+<td align="right">0</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="total_sales" class="section level3 tabset">
+<h3 class="tabset">total_sales</h3>
+<div id="total_sales_distribution" class="section level4">
+<h4>Distribution</h4>
+<p>figure/cb_Global_Pub_total_sales_distribution-14-1.pdf</p>
+<p>0 missing values.</p>
+</div>
+<div id="total_sales_summary" class="section level4">
+<h4>Summary statistics</h4>
+<table style="width:100%;">
+<colgroup>
+<col width="13%" />
+<col width="10%" />
+<col width="10%" />
+<col width="15%" />
+<col width="4%" />
+<col width="7%" />
+<col width="5%" />
+<col width="9%" />
+<col width="9%" />
+<col width="6%" />
+<col width="6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="left">data_type</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="left">min</th>
+<th align="left">median</th>
+<th align="left">max</th>
+<th align="right">mean</th>
+<th align="right">sd</th>
+<th align="left">hist</th>
+<th align="left">label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">total_sales</td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="left">254</td>
+<td align="left">474</td>
+<td align="left">2589</td>
+<td align="right">801.0882</td>
+<td align="right">750.2573</td>
+<td align="left">▇▂▁▁▁</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="missingness-report" class="section level2">
+<h2>Missingness report</h2>
+</div>
+<div id="codebook-table" class="section level2">
+<h2>Codebook table</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="26%" />
+<col width="6%" />
+<col width="6%" />
+<col width="9%" />
+<col width="6%" />
+<col width="4%" />
+<col width="2%" />
+<col width="4%" />
+<col width="3%" />
+<col width="6%" />
+<col width="6%" />
+<col width="7%" />
+<col width="4%" />
+<col width="4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">name</th>
+<th align="left">data_type</th>
+<th align="right">n_missing</th>
+<th align="right">complete_rate</th>
+<th align="right">n_unique</th>
+<th align="right">empty</th>
+<th align="left">min</th>
+<th align="left">median</th>
+<th align="left">max</th>
+<th align="right">mean</th>
+<th align="right">sd</th>
+<th align="right">whitespace</th>
+<th align="left">hist</th>
+<th align="left">label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="#Publisher">Publisher</a></td>
+<td align="left">character</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">0</td>
+<td align="left">3</td>
+<td align="left">NA</td>
+<td align="left">28</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td align="right">0</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="#total_sales">total_sales</a></td>
+<td align="left">numeric</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td align="left">254</td>
+<td align="left">474</td>
+<td align="left">2589</td>
+<td align="right">801.0882</td>
+<td align="right">750.2573</td>
+<td align="right">NA</td>
+<td align="left">▇▂▁▁▁</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+<script type="application/ld+json">
+{
+  "name": "Global_Pub",
+  "datePublished": "2023-05-15",
+  "description": "The dataset has N=11 rows and 2 columns.\n11 rows have no missing values on any column.\n\n\n## Table of variables\nThis table contains variable names, labels, and number of missing values.\nSee the complete codebook for more.\n\n|name        |label | n_missing|\n|:-----------|:-----|---------:|\n|Publisher   |NA    |         0|\n|total_sales |NA    |         0|\n\n### Note\nThis dataset was automatically described using the [codebook R package](https://rubenarslan.github.io/codebook/) (version 0.9.2).",
+  "keywords": ["Publisher", "total_sales"],
+  "@context": "http://schema.org/",
+  "@type": "Dataset",
+  "variableMeasured": [
+    {
+      "name": "Publisher",
+      "@type": "propertyValue"
+    },
+    {
+      "name": "total_sales",
+      "@type": "propertyValue"
+    }
+  ]
+}
+</script>
+<details>
+<summary>
+JSON-LD metadata
+</summary>
+<p>The following JSON-LD can be found by search engines, if you share
+this codebook publicly on the web.</p>
+<pre class="json"><code>{
+  &quot;name&quot;: &quot;Global_Pub&quot;,
+  &quot;datePublished&quot;: &quot;2023-05-15&quot;,
+  &quot;description&quot;: &quot;The dataset has N=11 rows and 2 columns.\n11 rows have no missing values on any column.\n\n\n## Table of variables\nThis table contains variable names, labels, and number of missing values.\nSee the complete codebook for more.\n\n|name        |label | n_missing|\n|:-----------|:-----|---------:|\n|Publisher   |NA    |         0|\n|total_sales |NA    |         0|\n\n### Note\nThis dataset was automatically described using the [codebook R package](https://rubenarslan.github.io/codebook/) (version 0.9.2).&quot;,
+  &quot;keywords&quot;: [&quot;Publisher&quot;, &quot;total_sales&quot;],
+  &quot;@context&quot;: &quot;http://schema.org/&quot;,
+  &quot;@type&quot;: &quot;Dataset&quot;,
+  &quot;variableMeasured&quot;: [
+    {
+      &quot;name&quot;: &quot;Publisher&quot;,
+      &quot;@type&quot;: &quot;propertyValue&quot;
+    },
+    {
+      &quot;name&quot;: &quot;total_sales&quot;,
+      &quot;@type&quot;: &quot;propertyValue&quot;
+    }
+  ]
+}`</code></pre>
+</details>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
